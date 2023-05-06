@@ -73,7 +73,7 @@ export default function App(){
 
             <div className="flex flex:col">
                 <h1 className="h1 mb-5 text-muted">Super Heroes anteriores</h1>
-                <div className="row row-cols-1 row-cols-md-2 row-cols-xxl-2 g-5">
+                <div className="flex flex:col">
                     <Thor/>
                     <Spiderman/>
                     <Batman/>
