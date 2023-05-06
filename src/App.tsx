@@ -34,27 +34,26 @@ export default function App(){
                     </div>
                 </div>
                 <div
-                    className="position:absolute bottom:0 fg:white"
-                    style={{
-                    background: "rgba(0, 0, 1, 0.4)",
-                        backdropFilter: "blur(10px)",
-                }}
-                    >
-                    <div className="flex flex:col px:1em">
-                        <p>Dinos tu opinión sobre</p>
-                        <h1 className="h1 fw-bold">Ironman?</h1>
-                        <p>
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                            minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        </p>
-                        <a>Más información</a>
-                        <p className="fw-bold pt-2">¿Cuál es tu voto?</p>
+                    className="position:absolute bottom:0 left:0 right:0 fg:white">
+                    <div className="flex flex:col">
+                        <div className="m:1.5em w:20em px:1em bg:rgba(0,0,1,0.4) bd:blur(10px)">
+                            <p>Dinos tu opinión sobre</p>
+                            <h1 className="h1 fw-bold">Ironman?</h1>
+                            <p>
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi
+                            </p>
+                            <a>Más información</a>
+                            <p className="fw-bold pt-2">¿Cuál es tu voto?</p>
+                        </div>
                     </div>
+
                     <div className="flex flex:row">
                         <LikeIcon/>
                         <UnlikeIcon/>
                     </div>
+
                     <BannerLikeUnlike/>
                 </div>
             </div>
