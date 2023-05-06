@@ -71,9 +71,9 @@ export default function App(){
                 </div>
             </div>
 
-            <div className="flex flex:col">
+            <div className="flex flex-basis:100% flex:col align-items:center justify-content:center">
                 <h1 className="h1 mb-5 text-muted">Super Heroes anteriores</h1>
-                <div className="flex flex:col">
+                <div className="flex flex:col gap:1em">
                     <Thor/>
                     <Spiderman/>
                     <Batman/>
