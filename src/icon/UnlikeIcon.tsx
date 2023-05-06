@@ -6,7 +6,7 @@ export default function UnlikeIcon() {
             width={24}
             height={24}
             fill="currentColor"
-            className="bi bi-hand-thumbs-down-fill flex flex-basis:50% py:0.5rem"
+            className="bi bi-hand-thumbs-down-fill flex flex:1 py:0.5rem"
             viewBox="0 0 16 16"
             style={{ background: "orange", cursor: "pointer" }}
             >
